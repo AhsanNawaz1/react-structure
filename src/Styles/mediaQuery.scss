@@ -1,0 +1,109 @@
+$medium: 900px;
+
+@media screen and (max-width: $medium) {
+  .containerAuth {
+    width: 90% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .site-section {
+    padding: 5em 0;
+  }
+
+  .site-section {
+    padding: 2.5em 0;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .crossIcon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .colStack {
+    width: 33.33% !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .query {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .seenEmail {
+    display: none;
+    font-size: 25px !important;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flexing {
+    flex-direction: column;
+  }
+  .colStack {
+    width: 50% !important;
+  }
+
+  // .col-md-4 {
+  //   width: 33% !important;
+  // }
+  .formContainer {
+    width: 100%;
+  }
+  .colProject {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 581px) {
+  .footerP {
+    margin-left: 10px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    line-height: 55px;
+  }
+  .merg {
+    margin-top: 10px;
+  }
+
+  .buttonDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .colStack {
+    display: flex;
+    justify-content: center;
+  }
+  .col-md-4 {
+    width: 50% !important;
+  }
+  .introText {
+    text-align: center;
+  }
+  .spacing {
+    flex-direction: column;
+    margin-top: 5px;
+  }
+
+  .experience {
+    text-align: center !important;
+    margin-bottom: 5%;
+  }
+
+  .fullTime {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+  }
+}
