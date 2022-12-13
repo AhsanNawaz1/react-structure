@@ -16,11 +16,6 @@ function App() {
   const user = useSelector((state) => state.root.user);
   const location = useLocation();
 
-  useEffect(() => {
-    let temp = location.pathname;
-    if (PublicRoute.includes(temp.split("/")[1])) {
-    }
-  }, [])
 
 
   return (
